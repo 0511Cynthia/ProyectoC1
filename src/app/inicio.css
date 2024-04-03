@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300&display=swap');
+
+
+.container{
+    display: flex; 
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    margin-top: 5%;
+    margin-left: 5%;
+}
+.add-task{
+    height: 30%;
+    width: 50%;
+}
+h1{
+    margin-left: 22%;
+    position: relative;
+    width: 20%;
+    position: absolute;
+    top: 50%; /* Centra verticalmente en la imagen */
+    right: 0; 
+    transform: translateY(-100%); /*Alinea verticalmente el botón con la imagen */
+    left: 50%;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 70px;
+    line-height: 120px;
+    color: #000000;
+}
+.btn-container{
+    margin-top: 5%;
+    margin-left: 25%;
+    position: relative;
+    width: 20%;
+    position: absolute;
+    top: 50%; /* Centra verticalmente en la imagen */
+    right: 0; /* Coloca el botón al lado derecho de la imagen */
+    transform: translateY(-50%); /* Alinea verticalmente el botón con la imagen */
+    left: 50%;
+}
+#btnEmpezar{
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 20px;
+    line-height: 48px;
+    color: #000000;
+}
